@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/lib_hello.h
+stdio.h
+-
+
+/home/sechang/study/cmake_study/lib/lib_hello.c
+lib_hello.h
+/home/sechang/study/cmake_study/lib/lib_hello.h
+
